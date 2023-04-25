@@ -12,7 +12,7 @@ public class KalitajenkinsherokuApplication {
     public static void main(String[] args) {
         SpringApplication.run(KalitajenkinsherokuApplication.class, args);
     }
-    @GetMapping
+    @GetMapping("/")
     public String get(){
         return "Hello Jenkins";
     }
